@@ -1,0 +1,393 @@
+
+ @font-face {font-family: 'Product Sans', Arial, sans-serif;}
+
+ body {
+     overflow-x: hidden;
+ }
+
+ img.back {
+     width: 100%;
+     height: auto;
+ }
+
+ img.phone {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     padding-top: 56px;
+     padding-bottom: 56px;
+ }
+
+div{
+  width: auto;
+  height: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color: #E9E9E9;
+    width: auto;
+    height: 100%;
+}
+
+img.screen {
+  width:  300px;
+  height: auto;
+  display: block;
+  margin-left: 56px;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 6%;
+}
+
+img.logo {
+  width:  100px;
+  height: auto;
+  margin-right: auto;
+  margin-left: 8px;
+  margin-bottom: 16px;
+}
+
+.play {
+  padding-top: 60px;
+  width:  27%;
+  height: auto;
+}
+
+div.icon_name{
+  margin-top: 120px;
+  margin-left: 16px;
+}
+
+
+h3.cyclops {
+  color: #4885ed;
+  margin-left: 12px;
+  font-size: 60px;
+  font-family: Product Sans;
+  font-weight: normal;
+}
+
+h3.desc {
+  font-size: 24px;
+  font-family: Product Sans;
+  font-weight: normal;
+  margin-left: 16px;
+  padding: 0px 0px 0px 0px ;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div.div_left{
+  width: 35%;
+  height: 100%;
+  float: left;
+}
+
+div.div_right{
+  width: 65%;
+  height: 100%;
+  float: right;
+}
+
+
+.rightscreen{
+  display: table;
+width: 750px;
+height: 100%;
+}
+
+.inside {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 5%;
+  background-color: #E9E9E9;
+}
+
+@media (max-width: 768px) {
+  .rightscreen{
+  display: table;
+  width: 750px;
+  height: 100px;
+  }
+
+  .inside {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+  }
+}
+
+@import "http://fonts.googleapis.com/css?family=Titillium+Web:200";
+body { margin: 0; }
+/* control */
+.control-cnt {
+  position: relative;
+  width: 100%; height: 600px;
+  min-width: 310px;
+  float: left;
+  background-repeat: no-repeat;
+}
+.control {
+  position: relative;
+  width: 20%; height: 125px;
+  float: left;
+  z-index: 10;
+}
+/* eye */
+.eye {
+  position: relative;
+  width: 250px; height: 250px;
+  margin: 150px auto;
+  background-color: #ffffff;
+  -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;
+}
+/* eye shadows */
+
+/* blue eye and shadow */
+.eye-inside-cnt {
+  position: absolute;
+  width: 150px; height: 150px;
+  margin: 50px;
+}
+.eye-inside {
+  position: absolute;
+  width: 150px; height: 150px;
+  margin-top: 48px;
+  margin-left: 48px;
+  background-color: #09C;
+  -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;
+  overflow: hidden;
+}
+/* eye inside (black) */
+.eye-really-inside {
+  width: 70px; height: 70px;
+  margin-top: 40px;
+  margin-left: 40px;
+  background-color: #000;
+  -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;
+  -webkit-transition: 0.1s linear; -moz-transition: 0.1s linear; transition: 0.1s linear;
+}
+/* hovers to change eye-inside position */
+/* line 1 */
+.hover-1:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 0px; margin-left: 5px; }
+.hover-2:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 0px; margin-left: 18.5px; }
+.hover-3:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 0px; margin-left: 40px; }
+.hover-4:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 0px; margin-left: 58.5px; }
+.hover-5:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 0px; margin-left: 77px; }
+/* line 2 */
+.hover-6:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 25px; margin-left: 5px; }
+.hover-7:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 25px; margin-left: 18.5px; }
+.hover-8:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 25px; margin-left: 40px; }
+.hover-9:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 25px; margin-left: 58.5px; }
+.hover-10:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 25px; margin-left: 77px; }
+/* line 3*/
+.hover-11:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 40px; margin-left: 5px; }
+.hover-12:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 40px; margin-left: 18.5px; }
+.hover-13:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 40px; margin-left: 40px; }
+.hover-14:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 40px; margin-left: 58.5px; }
+.hover-15:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 40px; margin-left: 77px; }
+/* line 4 */
+.hover-16:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 58.5px; margin-left: 5px; }
+.hover-17:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 58.5px; margin-left: 18.5px; }
+.hover-18:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 58.5px; margin-left: 40px; }
+.hover-19:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 58.5px; margin-left: 58.5px; }
+.hover-20:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 58.5px; margin-left: 77px; }
+/* line 5 */
+.hover-21:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 77px; margin-left: 5px; }
+.hover-22:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 77px; margin-left: 18.5px; }
+.hover-23:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 77px; margin-left: 40px; }
+.hover-24:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 77px; margin-left: 58.5px; }
+.hover-25:hover ~ .eye .eye-inside .eye-really-inside { margin-top: 77px; margin-left: 77px; }
+
+.box-shadow{
+
+    position: relative;
+    -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;
+
+	width:250px;
+	height:250px;
+	margin: 0 auto;
+	background-color : #FFFFFF;
+	box-shadow:0px 0px 0px rgb(213, 213, 213) ,
+	1px 1px 0px rgb(213, 213, 213) ,
+	2px 2px 0px rgb(213, 213, 213) ,
+	3px 3px 0px rgb(213, 213, 213) ,
+	4px 4px 0px rgb(213, 213, 213) ,
+	5px 5px 0px rgb(213, 213, 213) ,
+	6px 6px 0px rgb(213, 213, 213) ,
+	7px 7px 0px rgb(214, 214, 214) ,
+	8px 8px 0px rgb(214, 214, 214) ,
+	9px 9px 0px rgb(214, 214, 214) ,
+	10px 10px 0px rgb(214, 214, 214) ,
+	11px 11px 0px rgb(214, 214, 214) ,
+	12px 12px 0px rgb(214, 214, 214) ,
+	13px 13px 0px rgb(214, 214, 214) ,
+	14px 14px 0px rgb(214, 214, 214) ,
+	15px 15px 0px rgb(215, 215, 215) ,
+	16px 16px 0px rgb(215, 215, 215) ,
+	17px 17px 0px rgb(215, 215, 215) ,
+	18px 18px 0px rgb(215, 215, 215) ,
+	19px 19px 0px rgb(215, 215, 215) ,
+	20px 20px 0px rgb(215, 215, 215) ,
+	21px 21px 0px rgb(215, 215, 215) ,
+	22px 22px 0px rgb(215, 215, 215) ,
+	23px 23px 0px rgb(216, 216, 216) ,
+	24px 24px 0px rgb(216, 216, 216) ,
+	25px 25px 0px rgb(216, 216, 216) ,
+	26px 26px 0px rgb(216, 216, 216) ,
+	27px 27px 0px rgb(216, 216, 216) ,
+	28px 28px 0px rgb(216, 216, 216) ,
+	29px 29px 0px rgb(216, 216, 216) ,
+	30px 30px 0px rgb(216, 216, 216) ,
+	31px 31px 0px rgb(217, 217, 217) ,
+	32px 32px 0px rgb(217, 217, 217) ,
+	33px 33px 0px rgb(217, 217, 217) ,
+	34px 34px 0px rgb(217, 217, 217) ,
+	35px 35px 0px rgb(217, 217, 217) ,
+	36px 36px 0px rgb(217, 217, 217) ,
+	37px 37px 0px rgb(217, 217, 217) ,
+	38px 38px 0px rgb(218, 218, 218) ,
+	39px 39px 0px rgb(218, 218, 218) ,
+	40px 40px 0px rgb(218, 218, 218) ,
+	41px 41px 0px rgb(218, 218, 218) ,
+	42px 42px 0px rgb(218, 218, 218) ,
+	43px 43px 0px rgb(218, 218, 218) ,
+	44px 44px 0px rgb(218, 218, 218) ,
+	45px 45px 0px rgb(218, 218, 218) ,
+	46px 46px 0px rgb(219, 219, 219) ,
+	47px 47px 0px rgb(219, 219, 219) ,
+	48px 48px 0px rgb(219, 219, 219) ,
+	49px 49px 0px rgb(219, 219, 219) ,
+	50px 50px 0px rgb(219, 219, 219) ,
+	51px 51px 0px rgb(219, 219, 219) ,
+	52px 52px 0px rgb(219, 219, 219) ,
+	53px 53px 0px rgb(219, 219, 219) ,
+	54px 54px 0px rgb(220, 220, 220) ,
+	55px 55px 0px rgb(220, 220, 220) ,
+	56px 56px 0px rgb(220, 220, 220) ,
+	57px 57px 0px rgb(220, 220, 220) ,
+	58px 58px 0px rgb(220, 220, 220) ,
+	59px 59px 0px rgb(220, 220, 220) ,
+	60px 60px 0px rgb(220, 220, 220) ,
+	61px 61px 0px rgb(220, 220, 220) ,
+	62px 62px 0px rgb(221, 221, 221) ,
+	63px 63px 0px rgb(221, 221, 221) ,
+	64px 64px 0px rgb(221, 221, 221) ,
+	65px 65px 0px rgb(221, 221, 221) ,
+	66px 66px 0px rgb(221, 221, 221) ,
+	67px 67px 0px rgb(221, 221, 221) ,
+	68px 68px 0px rgb(221, 221, 221) ,
+	69px 69px 0px rgb(221, 221, 221) ,
+	70px 70px 0px rgb(222, 222, 222) ,
+	71px 71px 0px rgb(222, 222, 222) ,
+	72px 72px 0px rgb(222, 222, 222) ,
+	73px 73px 0px rgb(222, 222, 222) ,
+	74px 74px 0px rgb(222, 222, 222) ,
+	75px 75px 0px rgb(222, 222, 222) ,
+	76px 76px 0px rgb(222, 222, 222) ,
+	77px 77px 0px rgb(223, 223, 223) ,
+	78px 78px 0px rgb(223, 223, 223) ,
+	79px 79px 0px rgb(223, 223, 223) ,
+	80px 80px 0px rgb(223, 223, 223) ,
+	81px 81px 0px rgb(223, 223, 223) ,
+	82px 82px 0px rgb(223, 223, 223) ,
+	83px 83px 0px rgb(223, 223, 223) ,
+	84px 84px 0px rgb(223, 223, 223) ,
+	85px 85px 0px rgb(224, 224, 224) ,
+	86px 86px 0px rgb(224, 224, 224) ,
+	87px 87px 0px rgb(224, 224, 224) ,
+	88px 88px 0px rgb(224, 224, 224) ,
+	89px 89px 0px rgb(224, 224, 224) ,
+	90px 90px 0px rgb(224, 224, 224) ,
+	91px 91px 0px rgb(224, 224, 224) ,
+	92px 92px 0px rgb(224, 224, 224) ,
+	93px 93px 0px rgb(225, 225, 225) ,
+	94px 94px 0px rgb(225, 225, 225) ,
+	95px 95px 0px rgb(225, 225, 225) ,
+	96px 96px 0px rgb(225, 225, 225) ,
+	97px 97px 0px rgb(225, 225, 225) ,
+	98px 98px 0px rgb(225, 225, 225) ,
+	99px 99px 0px rgb(225, 225, 225) ,
+	100px 100px 0px rgb(225, 225, 225) ,
+	101px 101px 0px rgb(226, 226, 226) ,
+	102px 102px 0px rgb(226, 226, 226) ,
+	103px 103px 0px rgb(226, 226, 226) ,
+	104px 104px 0px rgb(226, 226, 226) ,
+	105px 105px 0px rgb(226, 226, 226) ,
+	106px 106px 0px rgb(226, 226, 226) ,
+	107px 107px 0px rgb(226, 226, 226) ,
+	108px 108px 0px rgb(226, 226, 226) ,
+	109px 109px 0px rgb(227, 227, 227) ,
+	110px 110px 0px rgb(227, 227, 227) ,
+	111px 111px 0px rgb(227, 227, 227) ,
+	112px 112px 0px rgb(227, 227, 227) ,
+	113px 113px 0px rgb(227, 227, 227) ,
+	114px 114px 0px rgb(227, 227, 227) ,
+	115px 115px 0px rgb(227, 227, 227) ,
+	116px 116px 0px rgb(227, 227, 227) ,
+	117px 117px 0px rgb(228, 228, 228) ,
+	118px 118px 0px rgb(228, 228, 228) ,
+	119px 119px 0px rgb(228, 228, 228) ,
+	120px 120px 0px rgb(228, 228, 228) ,
+	121px 121px 0px rgb(228, 228, 228) ,
+	122px 122px 0px rgb(228, 228, 228) ,
+	123px 123px 0px rgb(228, 228, 228) ,
+	124px 124px 0px rgb(229, 229, 229) ,
+	125px 125px 0px rgb(229, 229, 229) ,
+	126px 126px 0px rgb(229, 229, 229) ,
+	127px 127px 0px rgb(229, 229, 229) ,
+	128px 128px 0px rgb(229, 229, 229) ,
+	129px 129px 0px rgb(229, 229, 229) ,
+	130px 130px 0px rgb(229, 229, 229) ,
+	131px 131px 0px rgb(229, 229, 229) ,
+	132px 132px 0px rgb(230, 230, 230) ,
+	133px 133px 0px rgb(230, 230, 230) ,
+	134px 134px 0px rgb(230, 230, 230) ,
+	135px 135px 0px rgb(230, 230, 230) ,
+	136px 136px 0px rgb(230, 230, 230) ,
+	137px 137px 0px rgb(230, 230, 230) ,
+	138px 138px 0px rgb(230, 230, 230) ,
+	139px 139px 0px rgb(230, 230, 230) ,
+	140px 140px 0px rgb(231, 231, 231) ,
+	141px 141px 0px rgb(231, 231, 231) ,
+	142px 142px 0px rgb(231, 231, 231) ,
+	143px 143px 0px rgb(231, 231, 231) ,
+	144px 144px 0px rgb(231, 231, 231) ,
+	145px 145px 0px rgb(231, 231, 231) ,
+	146px 146px 0px rgb(231, 231, 231) ,
+	147px 147px 0px rgb(231, 231, 231) ,
+	148px 148px 0px rgb(232, 232, 232) ,
+	149px 149px 0px rgb(232, 232, 232) ,
+	150px 150px 0px rgb(232, 232, 232) ,
+	151px 151px 0px rgb(232, 232, 232) ,
+	152px 152px 0px rgb(232, 232, 232) ,
+	153px 153px 0px rgb(232, 232, 232) ,
+	154px 154px 0px rgb(232, 232, 232) ,
+	155px 155px 0px rgb(232, 232, 232) ,
+	156px 156px 0px rgb(233, 233, 233) ,
+	157px 157px 0px rgb(233, 233, 233) ,
+	158px 158px 0px rgb(233, 233, 233) ,
+	159px 159px 0px rgb(233, 233, 233);
+}
+
+.text-shadow{
+	color: #ffffff;
+	font-size: 0px;
+	font-weight: bold;
+	-webkit-text-stroke: 0px #FFFFFF;
+	-moz-text-stroke: 0px #FFFFFF;
+	-o-text-stroke: 0px #FFFFFF;
+	-webkit-text-stroke: 0px #FFFFFF;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	letter-spacing : 5px;
+	line-height: 1;
+	display: table-cell;
+	vertical-align: middle;
+	text-shadow:;
+}
